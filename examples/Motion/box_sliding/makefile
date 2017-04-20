@@ -1,5 +1,1 @@
-BASE = ../../..
-
-DEPEND = Motion Core Kin Gui Optim Perception Geo
-
-include $(BASE)/build/generic.mk
+./Makefile
