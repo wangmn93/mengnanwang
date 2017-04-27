@@ -393,20 +393,20 @@ int main(int argc, char** argv){
   mlr::initCmdLine(argc, argv);
 
   //--very simple one action tests
-//  testHoming(); return 0;
+// testHoming(); return 0;
 //  testBasics();
 //  testGripper();
 //  testPhysX();
 
 //  Prototyping();
 
-//  testPerception();
+// testPerception();
 //  testPerceptionOnly();
 
-  for(;;) testPickAndPlace();
+  //for(;;) testPickAndPlace();
 
-//  for(;;) testPickAndPlace2();
-//  testGamepad();
+ // for(;;) testPickAndPlace2();
+//testGamepad();
 
   return 0;
 }
