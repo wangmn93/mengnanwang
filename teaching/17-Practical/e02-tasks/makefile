@@ -1,0 +1,7 @@
+BASE = ../../..
+
+PLIB = 1
+PCL = 1
+DEPEND = Core RosCom Control Gui Hardware_gamepad Kin Motion Geo Roopi Perception PCL
+
+include $(BASE)/build/generic.mk
